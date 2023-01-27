@@ -1,8 +1,10 @@
+package examples;
+
 import analysis.Analysis;
 import services.Console;
 import tago.Listener;
 
-public class NewMain {
+public class AnalysisExample {
 
     public static void main(String[] args) {
         Analysis myAnalysis = new Analysis();

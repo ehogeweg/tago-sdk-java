@@ -1,3 +1,4 @@
+package examples;
 
 import domain.Result;
 import model.Account;
@@ -15,7 +16,6 @@ public class ProfileExample {
 
         Result deviceCreate = myacc.device.create(data);
 
-        
         Result profDel = myacc.profileDelete("58790a9b63fdfd0cc1accac9");
     }
 

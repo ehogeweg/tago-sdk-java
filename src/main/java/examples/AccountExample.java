@@ -1,3 +1,4 @@
+package examples;
 
 import com.github.nkzawa.emitter.Emitter;
 import domain.Result;
@@ -10,22 +11,19 @@ public class AccountExample {
 
         Result accinfo = myacc.info();
 
-
-        
         Object data = new Object() {
             public String name = "OpenSource Test";
         };
-        
+
         Result deviceCreate = myacc.device.create(data);
-        
-        
+
         Emitter.Listener listener = new Emitter.Listener() {
             @Override
             public void call(Object... info) {
                 System.out.println(info);
             }
         };
-        
+
         myacc.dashboard.listening(listener, "556388ea791aa76a07f0ba43");
     }
 
