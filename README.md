@@ -56,3 +56,10 @@ Result res = device.insert(data);
 # License
 
 Tago SDK for Java is released under the [Apache-2.0 License](https://github.com/tago-io/tago-sdk-java/blob/master/LICENSE.md).
+
+
+
+Netty.io
+
+https://netty.io/wiki/user-guide-for-4.x.html
+https://netty.io/4.1/api/io/netty/handler/codec/ReplayingDecoder.html
